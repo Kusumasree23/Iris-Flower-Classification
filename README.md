@@ -29,30 +29,17 @@ Target: Flower species (Setosa, Versicolor, Virginica)
 
 🚀 Installation & Setup
 1️⃣ Clone this repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/iris-flower-classification.git
-cd iris-flower-classification
+
 2️⃣ Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
+
 📊 Model Performance
 We used the Random Forest Classifier, achieving 95%+ accuracy.
-
-✅ Confusion Matrix:
-Actual →	Setosa	Versicolor	Virginica
-Setosa	✅ Correct	❌ Few misclassifications	❌ Few misclassifications
-Versicolor	✅ Correct	✅ Correct	❌ Few misclassifications
-Virginica	✅ Correct	✅ Correct	✅ Correct
-Classification Report:
 
 Precision, Recall, F1-score included in the output
 
 High accuracy observed across all classes
 🛠 Project Steps
+
 1️⃣ Data Collection
 Loaded Iris dataset using sklearn.datasets.load_iris()
 
